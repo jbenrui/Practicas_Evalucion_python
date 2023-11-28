@@ -9,7 +9,7 @@
 #   Devuelve True o False determinando si el valor esta en la lista.
 
 def estaEnRango(valor, minimo, maximo):
-    return valor >= minimo & valor <= maximo 
+    return minimo <= valor <= maximo
 def estaEnLista(valor, lista):
     return valor in lista 
 
